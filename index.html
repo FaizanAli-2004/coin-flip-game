@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Sets up the webpage with correct text format and mobile-friendly view -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewpoint" content ="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">  <!-- connects the CSS file to style the webpage -->
+        <title>Project coin</title>
+    </head>
+
+    <body>
+        <!-- Main container holding everything on the page -->
+        <div class="container">
+            
+            <!-- Shows how many times heads or tails came up -->
+            <div class="stats">
+                <p id="heads-count">Heads: 0</p>
+                <p id="tails-count">Tails: 0</p>
+            </div>
+
+            <!-- The coin area, showing heads or tails image -->
+            <div class="coin" id="coin">
+                <div class="heads">
+                    <img src="heads.svg" alt="">
+                </div>
+                <div class="tails">
+                    <img src="tails.svg" alt="">
+                </div>
+            </div>
+
+            <!-- Buttons to flip the coin or reset the counts -->
+            <div class="buttons">
+                <button id="flip-button">
+                    Flip Coin
+                </button>
+                <button id="reset-button">
+                    Reset
+                </button>
+            </div>
+        </div>
+
+        <!-- Connects the JavaScript file that makes the coin flip work -->
+        <script src="index.js"></script>
+    </body>
+</html>
