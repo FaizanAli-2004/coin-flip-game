@@ -25,6 +25,11 @@ updating the scores in real-time. Users can reset the scores using a reset butto
 ## Demo Video
 [Watch the Coin Flip Game in action on YouTube](https://youtu.be/i0F5YIM0iVw)
 
+## Live Demo
+Check out the live version of the Coin Flip Game here:  
+[https://faizanali-2004.github.io/coin-flip-game/]
+
+
 
 ## License
 This project is open-source and available under the [MIT License](LICENSE).
